@@ -8,7 +8,7 @@
 """
 
 # [step 1]>> API_KEY = "sk-123456789xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx123456789"。极少数情况下，还需要填写组织（格式如org-123456789abcdefghijklmno的），请向下翻，找 API_ORG 设置项
-API_KEY = "此处填API密钥"    # 可同时填写多个API-KEY，用英文逗号分割，例如API_KEY = "sk-openaikey1,sk-openaikey2,fkxxxx-api2dkey3,azure-apikey4"
+API_KEY = "sk-15861018f92c41dd9741b2bbb385ede4,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"    # 可同时填写多个API-KEY，用英文逗号分割，例如API_KEY = "sk-openaikey1,sk-openaikey2,fkxxxx-api2dkey3,azure-apikey4"
 
 
 # [step 2]>> 改为True应用代理，如果直接在海外服务器部署，此处不修改；如果使用本地或无地域限制的大模型时，此处也不需要修改
@@ -45,7 +45,7 @@ DEFAULT_WORKER_NUM = 3
 
 # 色彩主题, 可选 ["Default", "Chuanhu-Small-and-Beautiful", "High-Contrast"]
 # 更多主题, 请查阅Gradio主题商店: https://huggingface.co/spaces/gradio/theme-gallery 可选 ["Gstaff/Xkcd", "NoCrypt/Miku", ...]
-THEME = "Default"
+THEME = "Chuanhu-Small-and-Beautiful"
 AVAIL_THEMES = ["Default", "Chuanhu-Small-and-Beautiful", "High-Contrast", "Gstaff/Xkcd", "NoCrypt/Miku"]
 
 
@@ -86,12 +86,12 @@ DEFAULT_FN_GROUPS = ['对话', '编程', '学术', '智能体']
 
 
 # 模型选择是 (注意: LLM_MODEL是默认选中的模型, 它*必须*被包含在AVAIL_LLM_MODELS列表中 )
-LLM_MODEL = "gpt-3.5-turbo" # 可选 ↓↓↓
+LLM_MODEL =  "qwen" # 可选 ↓↓↓
 AVAIL_LLM_MODELS = ["gpt-3.5-turbo-1106","gpt-4-1106-preview","gpt-4-vision-preview",
                     "gpt-3.5-turbo-16k", "gpt-3.5-turbo", "azure-gpt-3.5",
                     "api2d-gpt-3.5-turbo", 'api2d-gpt-3.5-turbo-16k',
                     "gpt-4", "gpt-4-32k", "azure-gpt-4", "api2d-gpt-4",
-                    "chatglm3", "moss", "claude-2"]
+                    "chatglm3", "moss", "claude-2", "qwen"]
 # P.S. 其他可用的模型还包括 ["zhipuai", "qianfan", "deepseekcoder", "llama2", "qwen", "gpt-3.5-turbo-0613", "gpt-3.5-turbo-16k-0613",  "gpt-3.5-random"
 # "spark", "sparkv2", "sparkv3", "chatglm_onnx", "claude-1-100k", "claude-2", "internlm", "jittorllms_pangualpha", "jittorllms_llama"]
 
