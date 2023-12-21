@@ -23,4 +23,5 @@ openai
 arxiv
 numpy
 rich
-manim manimgl
+manim
+manimgl
