@@ -26,6 +26,8 @@ RUN pip3 install -r requirements.txt
 COPY . .
 RUN pip3 install -r requirements.txt
 
+EXPOSE 54681
+
 ENV HOSTNAME "0.0.0.0"
 ENV PORT=54681
 
