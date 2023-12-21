@@ -27,7 +27,7 @@ COPY . .
 RUN pip3 install -r requirements.txt
 
 ENV HOSTNAME "0.0.0.0"
-ENV PORT=54831
+ENV PORT=54681
 
 
 # 非必要步骤，用于预热模块（可以删除）
